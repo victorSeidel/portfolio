@@ -2,17 +2,39 @@ const portfolioData =
 [
     {
         id: 1,
+        title: "OM Conecta - Terapia",
+        category: "web",
+        description: "Plataforma na qual usuários encontram terapeutas. Contém sistema de pagamento, assinatura, split e dashboard completo. </br> HTML, CSS, JavaScript, Node.js, MySQL, APIs",
+        image: "",
+        technologies: ["HTML5", "CSS3", "JavaScript", "React", "Node.js", "MongoDB"],
+        link: "https://omconecta.com.br/",
+        github: "https://github.com/victorSeidel/om-system"
+    },
+    
+    {
+        id: 2,
         title: "Hermoso Nombre - E-commerce",
         category: "web",
         description: "Plataforma de e-commerce completa com sistema de pagamento integrado e painel administrativo. </br> HTML, CSS, JavaScript, Node.js, MySQL, APIs",
         image: "",
         technologies: ["HTML5", "CSS3", "JavaScript", "React", "Node.js", "MongoDB"],
-        link: "#",
+        link: "https://hermosonombre.com/",
         github: "https://github.com/victorSeidel/hermoso-nombre-ecommerce"
     },
 
     {
-        id: 2,
+        id: 3,
+        title: "Jogos",
+        category: "jogos",
+        description: "Jogos desenvolvidor por mim para venda comercial, aprendizado e competições. </br> Unity3D, Unity2D, C#",
+        image: "img/jg-1.png",
+        technologies: ["HTML5", "CSS3", "JavaScript", "React", "Node.js", "MySQL"],
+        link: "https://yviniv.itch.io/",
+        github: "#"
+    },
+
+    {
+        id: 4,
         title: "Health Track - Gestão Clínica",
         category: "software",
         description: "Software de gerenciamento hospitalar com registro total de dados dos pacientes. </br> Java, Java Swing, MySQL",
@@ -23,19 +45,8 @@ const portfolioData =
     },
 
     {
-        id: 3,
-        title: "Jogos",
-        category: "jogos",
-        description: "Jogos desenvolvidor por mim para venda comercial, aprendizado e competições. </br> Unity3D, Unity2D, C#",
-        image: "img/jg-1.png",
-        technologies: ["HTML5", "CSS3", "JavaScript", "React", "Node.js", "MySQL"],
-        link: "#",
-        github: "https://yviniv.itch.io/"
-    },
-
-    {
-        id: 4,
-        title: "Money Flow - Financial Control",
+        id: 5,
+        title: "Money Flow - Controle Financeiro",
         category: "web",
         description: "Aplicação para controle e gestão financeira e gestão de inventário de empresas. </br> Java, Spring Web, JavaScript, jQuery, HTML, CSS, Bootstrap, API Rest",
         image: "img/mf-1.png",
@@ -142,7 +153,8 @@ function loadPortfolio()
                 <div class="portfolio-overlay">
                     <h3>${item.title}</h3>
                     <p>${item.description}</p>
-                    <a href="${item.github}" class="btn">Link</a>
+                    <a href="${item.link}"   target="_blank" class="btn">Link</a>
+                    <a href="${item.github}" target="_blank" class="btn">GitHub</a>
                 </div>
             </div>
         `;
