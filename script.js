@@ -153,8 +153,10 @@ function loadPortfolio()
                 <div class="portfolio-overlay">
                     <h3>${item.title}</h3>
                     <p>${item.description}</p>
-                    <a href="${item.link}"   target="_blank" class="btn">Link</a>
-                    <a href="${item.github}" target="_blank" class="btn">GitHub</a>
+                    <div>
+                        <a href="${item.link}"   target="_blank" class="btn">Link</a>
+                        <a href="${item.github}" target="_blank" class="btn">GitHub</a>
+                    </div>
                 </div>
             </div>
         `;
