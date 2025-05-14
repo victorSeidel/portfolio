@@ -19,7 +19,7 @@ const portfolioData =
         image: "",
         technologies: ["HTML5", "CSS3", "JavaScript", "React", "Node.js", "MongoDB"],
         link: "https://hermosonombre.com/",
-        github: "https://github.com/victorSeidel/hermoso-nombre-ecommerce"
+        github: "https://github.com/victorSeidel/hermoso-nombre-server"
     },
 
     {
