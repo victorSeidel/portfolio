@@ -5,7 +5,7 @@ const portfolioData =
         title: "OM Conecta - Terapia",
         category: "web",
         description: "Plataforma na qual usuários encontram terapeutas. Contém sistema de pagamento, assinatura, split e dashboard completo. </br> HTML, CSS, JavaScript, Node.js, MySQL, APIs",
-        image: "",
+        image: "img/om-1.png",
         technologies: ["HTML5", "CSS3", "JavaScript", "React", "Node.js", "MongoDB"],
         link: "https://omconecta.com.br/",
         github: "https://github.com/victorSeidel/om-system"
