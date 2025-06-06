@@ -6,24 +6,35 @@ const portfolioData =
         category: "web",
         description: "Plataforma na qual usuários encontram terapeutas. Contém sistema de pagamento, assinatura, split e dashboard completo. </br> HTML, CSS, JavaScript, Node.js, MySQL, APIs",
         image: "img/om-1.png",
-        technologies: ["HTML5", "CSS3", "JavaScript", "React", "Node.js", "MongoDB"],
+        technologies: ["HTML5", "CSS3", "JavaScript", "Node.js", "MySQL"],
         link: "https://omconecta.com.br/",
         github: "https://github.com/victorSeidel/om-system"
     },
-    
+
     {
         id: 2,
+        title: "Serv Férias",
+        category: "web",
+        description: "Gerenciador de férias de funcionários com a opção de cadastrar via Excel, distribuir automaticamente e gerenciar as férias durante o ano. </br> HTML, CSS, JavaScript, Node.js, MySQL, APIs",
+        image: "img/sf-1.png",
+        technologies: ["HTML5", "CSS3", "JavaScript", "Node.js", "MySQL"],
+        link: "#",
+        github: "#"
+    },
+    
+    {
+        id: 3,
         title: "Hermoso Nombre - E-commerce",
         category: "web",
         description: "Plataforma de e-commerce completa com sistema de pagamento integrado e painel administrativo. </br> HTML, CSS, JavaScript, Node.js, MySQL, APIs",
         image: "",
-        technologies: ["HTML5", "CSS3", "JavaScript", "React", "Node.js", "MongoDB"],
+        technologies: ["HTML5", "CSS3", "JavaScript", "Node.js", "MySQL"],
         link: "https://hermosonombre.com/",
         github: "https://github.com/victorSeidel/hermoso-nombre-server"
     },
 
     {
-        id: 3,
+        id: 4,
         title: "Jogos",
         category: "jogos",
         description: "Jogos desenvolvidor por mim para venda comercial, aprendizado e competições. </br> Unity3D, Unity2D, C#",
@@ -34,18 +45,18 @@ const portfolioData =
     },
 
     {
-        id: 4,
+        id: 5,
         title: "Health Track - Gestão Clínica",
         category: "software",
         description: "Software de gerenciamento hospitalar com registro total de dados dos pacientes. </br> Java, Java Swing, MySQL",
         image: "img/ht-1.png",
-        technologies: ["HTML5", "CSS3", "JavaScript", "React", "Node.js", "MongoDB"],
+        technologies: ["HTML5", "CSS3", "JavaScript", "Node.js", "MySQL"],
         link: "#",
         github: "https://github.com/victorSeidel/health-track"
     },
 
     {
-        id: 5,
+        id: 6,
         title: "Money Flow - Controle Financeiro",
         category: "web",
         description: "Aplicação para controle, gestão financeira e gestão de inventário de empresas. </br> Java, Spring Web, JavaScript, jQuery, HTML, CSS, Bootstrap, API Rest",
