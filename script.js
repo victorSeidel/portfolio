@@ -15,7 +15,7 @@ const portfolioData =
         id: 2,
         title: "Serv Férias",
         category: "web",
-        description: "Gerenciador de férias de funcionários com a opção de cadastrar via Excel, distribuir automaticamente e gerenciar as férias durante o ano. </br> HTML, CSS, JavaScript, Node.js, MySQL, APIs",
+        description: "Gerenciador de férias de funcionários com a opção de cadastrar via Excel, distribuir automaticamente e gerenciar as férias anuais. </br> HTML, CSS, JavaScript, Node.js, MySQL, APIs",
         image: "img/sf-1.png",
         technologies: ["HTML5", "CSS3", "JavaScript", "Node.js", "MySQL"],
         link: "#",
