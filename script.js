@@ -48,7 +48,7 @@ const portfolioData =
         id: 5,
         title: "Money Flow - Controle Financeiro",
         category: "web",
-        description: "Aplicação para controle e gestão financeira e gestão de inventário de empresas. </br> Java, Spring Web, JavaScript, jQuery, HTML, CSS, Bootstrap, API Rest",
+        description: "Aplicação para controle, gestão financeira e gestão de inventário de empresas. </br> Java, Spring Web, JavaScript, jQuery, HTML, CSS, Bootstrap, API Rest",
         image: "img/mf-1.png",
         technologies: ["HTML5", "CSS3", "JavaScript", "React", "Node.js", "MongoDB"],
         link: "#",
